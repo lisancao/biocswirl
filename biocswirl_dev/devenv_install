@@ -19,7 +19,7 @@
 #Please run the following lines: 
 
 #bare essential system packages: 
-sudo apt-get update && sudo apt-get install git vim neovim python3 python-pip r-base curl #command line install 
+sudo apt-get update && sudo apt-get install git vim neovim python3 python-pip r-base curl tmux #command line install 
 
 #python packages 
 pip install -U radian #install with pip from terminal
@@ -62,7 +62,7 @@ git clone https://github.com/bioSyntax/bioSyntax-vim.git
 
 # Using brew
 brew update
-brew install git vim python3 python-pip curl # I wasn't able to find r-base for mac
+brew install git vim python3 python-pip curl tmux # I wasn't able to find r-base for mac
 
 # python packages
 pip install -U radian #install with pip from terminal
