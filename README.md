@@ -1,5 +1,3 @@
-# hs19-biocswirl
-
 # BiocSwirl: Terminal based Bioconductor Courses 
 
 Keywords: 
