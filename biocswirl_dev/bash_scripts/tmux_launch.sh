@@ -18,13 +18,14 @@
 ####################################################
 
 #start new session in radian
-tmux new-session -s "BiocSwirl()" -d 'Radian'
-
-#split window vertically into vim
-tmux split-window -v 'nvim'
+tmux new-session -d 'nvim'
+tmux split-window -v 'radian'
 
 #split window horizontally 
 tmux split-window -h
+
+tmux new-window 'mutt'
+tmux -2 attach-session -d
 
 
 # Enable mouse mode (tmux 2.1 and above)
