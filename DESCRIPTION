@@ -1,4 +1,4 @@
-Package: biocswirl
+Package: BiocSwirl
 Type: Package
 Title: Interactive Bioinformatics Tutorial on scRNA-Seq
 Version: 0.0.0.9000
@@ -31,7 +31,8 @@ Authors@R: c(
            family = "Singh",
            role = c("aut"),
            email = "ssouravsingh12@gmail.com"))
-Description: BiocSwirl aims to make learning bioinformatics concepts hands on through the development of course material that takes you through the common bioinformatics workflows (with a focus on scRNA-seq).
+Description: BiocSwirl aims to make learning bioinformatics concepts hands on through the development of course material that takes you through the common bioinformatics workflows (with a focus on scRNA-seq). 
+    For more details, please see https://github.com/lisancao/biocswirl.
 License: MIT + file LICENCE
 Encoding: UTF-8
 LazyData: true
