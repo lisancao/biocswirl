@@ -3,19 +3,10 @@
 
 #------------------------------------ EDITORS
 #Name: Run Vim
-#Description: Runs Vim on the current source file.
-#Binding: editInVim
-#Interactive: true
+#Description: sets nvim as the default editor
+#Binding: setvim
+#Interactive: no, needs to autorun within container
 
-#thank god for https://stackoverflow.com/questions/48290952/launching-external-text-editors-from-the-rstudio-editing-window#install packages
-install.packages("rstudioapi")
-
-#load libraries
-library(rstudioapi)
-
-editInVim <- function()
-  rstudioapi::terminalExecute(paste("vim", rstudioapi::getSourceEditorContext()$path))
-
-
+setvim <- options(editor="~/nvim.appimage")         
 
 #---------------------------------- 
