@@ -21,6 +21,13 @@ Day 1:
        A. Team formation, introductions, overview of Hackathon workflow and Lesson Plan/Analysis Pipeline, Adding everyone to Github, Git overview and push/pull protocols 
 
        B. Assignment of individuals to either Docs or Interface, Git issue Overview
+	***Kate: CRAN documentation and usethis() for R package building
+	***Paaksum: YAML file template and course material writing (starting with file types and low level analyses), based on swirlify() YAML file structure
+	***Lisa: Interface, working on Radian + Biosyntax convergence 
+	***Jackie: '' 
+	***Jeremy: ''
+			    
+
 
        C. Installation of:
 
