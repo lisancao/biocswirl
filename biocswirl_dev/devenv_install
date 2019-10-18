@@ -12,7 +12,6 @@
 #CONTACT      : lisanatashacao@gmail.com	
 #DATE CREATED : October 12, 2019
 #LAST REVISION: --- 
-
 ####################################################
 
 
@@ -20,7 +19,7 @@
 #Please run the following lines: 
 
 #bare essential system packages: 
-sudo apt-get update && sudo apt-get install git vim python3 python-pip r-base curl #command line install 
+sudo apt-get update && sudo apt-get install git vim neovim python3 python-pip r-base curl tmux #command line install 
 
 #python packages 
 pip install -U radian #install with pip from terminal
@@ -31,7 +30,6 @@ pip install jedi
 r     #launch r
 
 #install rstudio on ubuntu 18.04 using this link: https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux
-install.packages("BiocManager", "devtools", "usethis", "roxygen2", dependencies = TRUE)
 
 
 #vim plugins ** requires ~/.vimrc file 
@@ -53,8 +51,43 @@ git clone https://github.com/bioSyntax/bioSyntax-vim.git
 
 #install git using this link: https://git-scm.com/download/win
 #install vim using this link: https://www.vim.org/download.php
+#install nvim using this link: https://github.com/neovim/neovim/wiki/Installing-Neovim
 #install R using this link: https://www.r-project.org/
 #install miniconda with python 2.7 or higher using this link: https://docs.conda.io/en/latest/miniconda.html
 
- 
+##-------------------Mac Systems------------------- 
+
+# Installing homebrew, a package manager for mac
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Using brew
+brew update
+brew install git vim python3 python-pip curl tmux # I wasn't able to find r-base for mac
+
+# python packages
+pip install -U radian #install with pip from terminal
+pip install jedi
+
+# Rstudio download link: https://rstudio.com/products/rstudio/download/#download
+
+#vim plugins ** requires ~/.vimrc file 
+#Pathogen plugin manager https://github.com/tpope/vim-pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+#Nvim-R 
+cd ~/.vim/bundle &&
+git clone https://github.com/jalvesaq/Nvim-R.git
+
+#Biosyntax https://github.com/bioSyntax/bioSyntax/blob/master/INSTALL.md#vim
+cd ~/.vim/bundle &&
+git clone https://github.com/bioSyntax/bioSyntax-vim.git
+
+
+#---------------- R Packages ----------------------
+
+install.packages("BiocManager", "devtools", "usethis", "roxygen2", "nvimcom" dependencies = TRUE)
+
+
+#---------------- scRNA-seq course dependencies -------
 
