@@ -1,0 +1,27 @@
+#------------- GOALS -----------------
+
+A. To setup the project to facillitate a good workflow for pushing/pulling on github
+
+B. Get everyone's systems working with the same packages and version of R installed 
+
+C. Initialize the R package 
+
+
+
+#------------- TASK LIST --------------
+
+A. Primary Goal: Hackseq 2019
+
+	-Prepare BiocSwirl() Github Project Task List 
+		-Setup Git project/Development Workflow 
+		-Git Issue templates
+
+	-Setup Dev Env 
+		-Finish writing install scripts for Linux/Windows/Mac
+		-Converge vim/Nvim-R/Radian/miniconda/R/Biosyntax into one terminal interface
+		-R version control 
+
+	-Setup R Package 
+		-Package dev workflow in Radian 
+		-usethis() initialization
+		-Initial CRAN checks 

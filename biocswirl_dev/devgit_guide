@@ -1,0 +1,35 @@
+
+!#/bin/bash
+
+####################################################
+
+#FILE         : devgit_guide
+#DESCRIPTION  : Git setup guide for biocswirl() devs, including pointers for templates   
+
+#OPTIONS      : change file directories to the correct template 
+#REQUIREMENTS : terminal-based git
+#BUGS         : ---
+#NOTES        : if editor is not configured with "-w" or commit is made without "-w" tag then git will abort the commit before you get the chance to edit it in vim
+
+#AUTHOR       : LNC
+#CONTACT      : lisanatashacao@gmail.com
+#DATE CREATED : oct 17, 2019
+#LAST REVISION: --- 
+
+####################################################
+
+
+##------------------ GIT GUD GUIDE --------------------
+
+### taken from: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+#edit git config editor to vim **-w is extremely important for git committing as git will abort the commit before vim opens
+git config --global core.editor "vim -w"
+
+#git commit template pointer 
+git config --global commit.template ~/biocswirl/biocswirl/biocswirl_dev/templates/.git_commit.txt
+
+#test that template reveals 
+git commit
+
+

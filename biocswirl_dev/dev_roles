@@ -1,0 +1,35 @@
+####################################################
+
+#FILE         : dev_roles
+#DESCRIPTION  : Description of developer roles and responsibilities
+
+#OPTIONS      : ---
+#REQUIREMENTS : ---
+#BUGS         : ---
+#NOTES        : Preliminary & conceptual- roles are subject to change and adjust based on skillset, needs, and 
+
+#AUTHOR       : LNC
+#CONTACT      : lisanatashacao@gmail.com
+#DATE CREATED : Oct 17, 2019
+#LAST REVISION: --- 
+
+####################################################
+
+A) [ Front End ] User Environment & Interface Developer
+	-Handles the main user interface (user terminal) to include syntax highlighters, read user input correctly, read and translate error messages, and correctly display files
+	-Good understanding of Radian, syntax highlighters (such as biosyntax), console interfaces, handling gene file types in terminal, and interactive course formats
+
+
+B) [ Back End ] System Environment/File Structure Developer 
+	-Handles under the hood logistics of the package such as install locations/uninstall/readwrite permissions/save files/loading dependencies/update rollout/resource allocation/config files/file structuring and environment variables 
+	-Good understanding of R back end, some bash, contained environments and developing for different operating systems 
+
+C) [ Conceptual ] Course Material Writer
+	-Translational role, must be able to relate what the code is doing from a biological standpoint. High familiarity with good scRNA-seq and relating computational and biological concepts. Encodes directly into the YAML files. Science communication skills and an understanding of good questions to ask/teaching experience preferred. 
+
+D) [ Workflow ] Course Material Writer
+	-Preps dataset files, dependencies, and code examples for the course, writes material related to good coding practices in bioinformatics, troubleshooting skills and reading error messages, and communicating what the bioinformatics/R landscape is like for newcomers as it relates to packages. Must be familiar with scRNA-seq workflows (including most common issues) and current up to date packages, code readability, and manipulating gene files. Good understanding of YAML files and swirlify()
+
+
+E) [ Documentation ] Technical Writer & Debugger/Tester
+	-Identifies bugs and helps with troubleshooting for both Front and Back End devs, checks for conceptual errors in course material. Writes CRAN documentation and guides for users. Good technical writing and package development skills preferred. Understands how R packages are written and structured.

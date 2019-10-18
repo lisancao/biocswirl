@@ -1,0 +1,36 @@
+# Please follow the general troubleshooting steps first:
+
+- [ ] Ran ?
+- [ ] If you're seeing permission errors ?
+
+### Bug reports:
+
+Please replace this line with a brief summary of your issue **AND** if reporting a build issue include the link from:
+
+### Subject of the issue
+Describe your issue here.
+
+### Your environment
+* version of R, python, and vim
+* package version
+* Which operating system, which version, and basic hardware specs
+
+### Steps to reproduce
+Tell us how to reproduce this issue. Please provide a working demo, you can use [this template](https://plnkr.co/edit/XorWgI?p=preview) as a base.
+
+### Expected behaviour
+Tell us what should happen
+
+### Actual behaviour
+Tell us what happens instead
+
+### DEV ONLY: 
+
+Where is this bug found (please specify lines if you can) and which files does this effect?
+
+
+### Feature Requests:
+
+**Please note by far the quickest way to get a new feature is to file a Pull Request.**
+
+We will consider your request but it may be closed if it's something we're not actively planning to work on.

@@ -1,0 +1,60 @@
+####################################################
+
+#FILE         : devenv_readme (Developer's Environment README) 
+#DESCRIPTION  : Recommended installs and background info for environment setup of BiocSwirl
+
+#OPTIONS      : Commands below are written for Ubuntu systems, use your preferred package managers for different distros 
+#REQUIREMENTS : Linux
+#BUGS         : ---
+#NOTES        : Has to be done in specific order (e.g. installing pip before installing something with pip), ensure that $PATH variable is correct
+
+#AUTHOR       : Lisa N. Cao
+#CONTACT      : lisanatashacao@gmail.com	
+#DATE CREATED : October 12, 2019
+#LAST REVISION: --- 
+
+####################################################
+
+
+##------------------Linux Systems--------------------
+#Please run the following lines: 
+
+#bare essential system packages: 
+sudo apt-get update && sudo apt-get install git vim python3 python-pip r-base curl #command line install 
+
+#python packages 
+pip install -U radian #install with pip from terminal
+pip install jedi
+
+#r packages 
+#to alias r to radian use alias r="radian"
+r     #launch r
+
+#install rstudio on ubuntu 18.04 using this link: https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux
+install.packages("BiocManager", "devtools", "usethis", "roxygen2", dependencies = TRUE)
+
+
+#vim plugins ** requires ~/.vimrc file 
+#Pathogen plugin manager https://github.com/tpope/vim-pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+#Nvim-R 
+cd ~/.vim/bundle &&
+git clone https://github.com/jalvesaq/Nvim-R.git
+
+#Biosyntax https://github.com/bioSyntax/bioSyntax/blob/master/INSTALL.md#vim
+cd ~/.vim/bundle &&
+git clone https://github.com/bioSyntax/bioSyntax-vim.git
+
+
+
+##-----------------Windows Systems-------------------
+
+#install git using this link: https://git-scm.com/download/win
+#install vim using this link: https://www.vim.org/download.php
+#install R using this link: https://www.r-project.org/
+#install miniconda with python 2.7 or higher using this link: https://docs.conda.io/en/latest/miniconda.html
+
+ 
+
