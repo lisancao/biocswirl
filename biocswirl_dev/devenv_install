@@ -56,5 +56,34 @@ git clone https://github.com/bioSyntax/bioSyntax-vim.git
 #install R using this link: https://www.r-project.org/
 #install miniconda with python 2.7 or higher using this link: https://docs.conda.io/en/latest/miniconda.html
 
- 
+##-------------------Mac Systems------------------- 
+
+# Installing homebrew, a package manager for mac
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Using brew
+brew update
+brew install git vim python3 python-pip curl # I wasn't able to find r-base for mac
+
+# python packages
+pip install -U radian #install with pip from terminal
+pip install jedi
+
+# Rstudio download link: https://rstudio.com/products/rstudio/download/#download
+
+#vim plugins ** requires ~/.vimrc file 
+#Pathogen plugin manager https://github.com/tpope/vim-pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+#Nvim-R 
+cd ~/.vim/bundle &&
+git clone https://github.com/jalvesaq/Nvim-R.git
+
+#Biosyntax https://github.com/bioSyntax/bioSyntax/blob/master/INSTALL.md#vim
+cd ~/.vim/bundle &&
+git clone https://github.com/bioSyntax/bioSyntax-vim.git
+
+
+
 
