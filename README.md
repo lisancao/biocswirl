@@ -13,8 +13,8 @@ Please refer [here](biocswirl_package/courses/scrna_seq/docs/lessonplan_template
 ### Installation:
 Please refer to the [installation instructions](biocswirl_dev/devenv_install) for `BiocSwirl` setup details.
 
-### Examples of use:
-- [Low Level Analyses](biocswirl_package/courses/scrna_seq/lessons/low_level/low_level.yaml) using GSE71585 dataset - in progress
+### Examples of use using GSE71585 dataset:
+- [Low Level Analyses](biocswirl_package/courses/scrna_seq/lessons/low_level/low_level.yaml) - in progress
 - High Level Analyses
 - Visualizations for high-throughput data
 
