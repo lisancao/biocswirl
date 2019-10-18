@@ -1,4 +1,4 @@
-Package: biocswirl
+Package: BiocSwirl
 Type: Package
 Title: Interactive Bioinformatics Tutorial on scRNA-Seq
 Version: 0.0.0.9000
@@ -6,32 +6,33 @@ Authors@R: c(
     person(given = "Lisa",
            family = "Cao",
            role = c("aut", "cre"),
-           email = "first.last@example.com"),
+           email = "lisanatashacao@gmail.com"),
+    person(given = "Mariam",
+           family = "Arab",
+           role = c("aut"),
+           email = "arab@sfu.ca"),           
     person(given = "Kateryna",
            family = "Tyshchenko",
            role = c("aut"),
            email = "kate.tyshchenko@yandex.ru"),
-    person(given = "name",
-           family = "name",
+    person(given = "Jackie",
+           family = "Lu",
            role = c("aut"),
-           email = "first.last@example.com"),
-    person(given = "name",
-           family = "name",
+           email = "jql6@sfu.ca"),
+    person(given = "Jeremy",
+           family = "Fan",
            role = c("aut"),
-           email = "first.last@example.com"),
-    person(given = "name",
-           family = "name",
+           email = "jeremy.fan@ucalgary.ca"),
+    person(given = "Paaksum",
+           family = "Wong",
            role = c("aut"),
-           email = "first.last@example.com"),
-    person(given = "name",
-           family = "name",
+           email = "paaksumwong@gmail.com"),
+    person(given = "Sourav",
+           family = "Singh",
            role = c("aut"),
-           email = "first.last@example.com"),
-    person(given = "name",
-           family = "name",
-           role = c("aut"),
-           email = "first.last@example.com"))
-Description: BiocSwirl aims to make learning bioinformatics concepts hands on through the development of course material that takes you through the common bioinformatics workflows (with a focus on scRNA-seq).
+           email = "ssouravsingh12@gmail.com"))
+Description: BiocSwirl aims to make learning bioinformatics concepts hands on through the development of course material that takes you through the common bioinformatics workflows (with a focus on scRNA-seq). 
+    For more details, please see https://github.com/lisancao/biocswirl.
 License: MIT + file LICENCE
 Encoding: UTF-8
 LazyData: true
