@@ -12,7 +12,6 @@
 #CONTACT      : lisanatashacao@gmail.com	
 #DATE CREATED : October 12, 2019
 #LAST REVISION: --- 
-
 ####################################################
 
 
@@ -31,7 +30,6 @@ pip install jedi
 r     #launch r
 
 #install rstudio on ubuntu 18.04 using this link: https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux
-install.packages("BiocManager", "devtools", "usethis", "roxygen2", dependencies = TRUE)
 
 
 #vim plugins ** requires ~/.vimrc file 
@@ -86,5 +84,10 @@ cd ~/.vim/bundle &&
 git clone https://github.com/bioSyntax/bioSyntax-vim.git
 
 
+#---------------- R Packages ----------------------
 
+install.packages("BiocManager", "devtools", "usethis", "roxygen2", "nvimcom" dependencies = TRUE)
+
+
+#---------------- scRNA-seq course dependencies -------
 
