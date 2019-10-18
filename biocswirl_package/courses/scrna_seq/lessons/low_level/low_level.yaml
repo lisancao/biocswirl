@@ -1,0 +1,82 @@
+- Class: meta
+  Course: BiocSwirl
+  Lesson: Low Level Analyses
+  Author: Paaksum Wong
+  Type: Standard
+  Organization: The University of British Columbia
+  Version: 1.0
+
+#Introduction
+
+- Class: text
+  Output: Welcome to BiocSwirl - Terminal based Bioconductor Courses. This lesson will cover how to install required packages, loading scRNA data and exploring various visualization methods, and processing raw reads.
+
+- Class: text
+  Output: Install the required software at the following link, https://github.com/lisancao/biocswirl/blob/master/biocswirl_dev/devenv_install.
+
+#Explain alignment
+
+- Class: text
+  Output: To generate the count and RPKM data, 100bp single-end reads were aligned using RSEM to the mm10 mouse genome build with the RefSeq annotation downloaded on 11 June 2013. Raw fastq files are available at Gene Expression Omnibus, accession ID GSE71585.
+
+#Alignment QC
+
+- Class: text
+  Output: Before downstream processing of aligned reads (.bam) in R, we must assess the quality of the alignments.
+
+- Class: mult_question
+  Output: What tool can we use to quality check the aligned .bam files?
+  AnswerChoices: FastQC;samtools;STAR;DESeq2
+  CorrectAnswer: FastQC
+  AnswerTests: omnitest(correctVal='FastQC')
+
+- Class: text
+  Output: Go to https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ and follow instructions to perform QC on .bam files.
+
+#Load data into R
+
+- Class: text
+  Output: Now that we have good quality alignment files, let's load our data into R. First, let's install bioconductor and the required packages.
+
+- Class: cmd_question
+  Output: In the R console, enter (without asterisks) *if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+    BiocManager::install()*
+  CorrectAnswer: if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+    BiocManager::install()
+  AnswerTests: omnitest(correctExpr='if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+    BiocManager::install()')
+  Hint: Type the expression into the R console.
+
+- Class: cmd_question
+  Output: Install the packages ___.
+  CorrectAnswer: BiocManager::install(c("___"))
+  AnswerTests: omnitest(correctExpr='BiocManager::install(c("___"))')
+  Hint: Refer to the bioconductor install page. Use quotations.
+
+- Class: cmd_question
+  Output: Load the installed packages.
+  CorrectAnswer: library("")
+  AnswerTests: omnitest(correctExpr='library("")')
+  Hint: Load each library separately.
+
+- Class: text
+  Output: Set working directory.
+
+- Class: cmd_question
+  Output: Input the .csv metadata file.
+  CorrectAnswer: read_csv("cell_metadata.csv")
+  AnswerTests: omnitest(correctExpr='read_csv("cell_metadata.csv")')
+  Hint: Use tidyverse.
+
+- Class: mult_question
+  Output: What are the dimensions of the metadata table?
+  AnswerChoices: 1680,16;16,1679;16,1680;1679,16; none of the above
+  CorrectAnswer: 1679,16
+  AnswerTests: omnitest(correctVal='1679,16')
+  Hint: Rows first, then columns.
+
+- Class: text
+  Output: Confirm whether your data was imported correctly using the head() function.

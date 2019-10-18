@@ -8,13 +8,15 @@ There have been many resources available to interdisciplinary researchers for ye
 
 We developed `swirlify()`-style console/terminal based courses for the purposes of teaching bioinformatics workflow steps and good coding practices. The philosophy is to keep the GUI use and application switching as minimal as possible but the content itself very rich and informative. Bioconductor, Radian, bioSyntax (shoutout to hackseq 2016!), are examples of some packages we use to teach workflow steps, file types, and concepts in R.
 
-Please refer [here](https://github.com/lisancao/biocswirl/blob/master/biocswirl_package/courses/scrna_seq/docs/lessonplan_template) for the lesson plan.
+Please refer [here](biocswirl_package/courses/scrna_seq/docs/lessonplan_template) for the lesson plan.
 
 ### Installation:
 Please refer to the [installation instructions](biocswirl_dev/devenv_install) for `BiocSwirl` setup details.
 
-### Examples of use:
-
+### Examples of use (GSE71585 dataset):
+- [Low Level Analyses](biocswirl_package/courses/scrna_seq/lessons/low_level/low_level.yaml) - in progress
+- High Level Analyses
+- Visualizations for high-throughput data
 
 ### Further reference:
 [Vignette](vignettes/package_intro.Rmd) - in progress
