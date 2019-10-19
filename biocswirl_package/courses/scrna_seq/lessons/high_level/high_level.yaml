@@ -19,9 +19,6 @@
   Output: For our lesson, we will assume that you have already finished the low-level analyses and are learning about high-level analyses.
   
 - Class: text
-  Output: For this lesson, we will make use of Seurat, although other tools for clustering like SC3 and SINCERA can also be used for clustering.
-  
-- Class: text
   Output: For this lesson, we will make use of SC3, although other tools for clustering like Seurat and SINCERA can also be used for clustering.
   
 - Class: cmd_question
@@ -34,8 +31,10 @@
   Output: Run a simple PCA analysis on your dataset by a specific cell type.
   CorrectAnswer: plotPCA("___", colour_by = "___")
   AnswerTests: omnitest(correctExpr='plotPCA("___", colour_by = "___")')
+  Hint: Enter the name of the object created by SingleCellExperiment library
 
 - Class: cmd_question
   Output: Estimate number of clusters for SC3
   CorrectAnswer: sc3_estimate_k("___")
   AnswerTests: omnitest(correctExpr='sc3_estimate_k("___")')
+  Hint: Enter the name of the object created by SingleCellExperiment library
