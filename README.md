@@ -11,7 +11,10 @@ Bioinformatics has grown in adoption in many traditional non-computer science fi
 ***`BiocSwirl`, inspired by such courses, aims to make learning bioinformatics concepts hands on through the development of course material that takes you through the common bioinformatics workflows.*** 
 
 ### Package details:
-During a 3-day hackathon, we developed `swirlify()`-style console/terminal based courses for the purposes of teaching bioinformatics workflow steps and good coding practices. The philosophy is to keep the GUI use and application switching as minimal as possible but the content itself very rich and informative. Bioconductor, Radian, bioSyntax (shoutout to hackseq 2016!), are examples of some packages we use to teach workflow steps, file types, and concepts in R.
+During a 3-day hackathon, we developed `swirlify()`-style console/terminal based courses for the purposes of teaching bioinformatics workflow steps and good coding practices. The philosophy is to keep the GUI use and application switching as minimal as possible but the content itself very rich and informative. 
+Bioconductor, Radian, bioSyntax (shoutout to hackseq 2016!), are examples of some packages we use to teach workflow steps, file types, and concepts in R.
+
+We also develop **biovim**: a powerful bioinformatics editor, and **biocterm**: a terminal environment for our course. 
 
 **Please refer [here](biocswirl_package/courses/scrna_seq/docs/lessonplan_template) for the lesson plan. In this hackathon (hackseq19) we focus on scRNA-seq.** For future projects, the plan is to add other courses (for example, whole-genome sequencing) and make lessons for other languages (for instance, Python).
 
@@ -42,9 +45,9 @@ c. HVG and marker gene identification
 | Lisa N. Cao | lisancao | User Environment & Interface Development |
 | Jackie Lu | jql6 | User Environment & Interface Development (tmux) |
 | Jeremy Fan | zhemingfan | User Environment & Interface Development |
+| Mariam Arab | mariamarab | User Environment & Installation |
 | Kate Tyshchenko | ktyshchenko | Documentation, Course Material |
 | Paaksum Wong | paaksum | Course Material (main) |
 | Sourav Singh | souravsingh | Course Material |   
-| Mariam Arab | mariamarab | Course Material |    
 
 [Details about hackseq19 project](biocswirl_dev/hackseq_plan)
