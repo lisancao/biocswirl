@@ -45,16 +45,12 @@
   Output: Now that we have good quality alignment files, let's load our data into R. First, let's install bioconductor and the required packages.
 
 - Class: cmd_question
-  Output: In the R console, enter (without asterisks) *if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-    BiocManager::install()*
-  CorrectAnswer: if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
+  Output: Open a new project in R and install Bioconductor.
+  CorrectAnswer: install.packages("BiocManager")
     BiocManager::install()
-  AnswerTests: omnitest(correctExpr='if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
+  AnswerTests: omnitest(install.packages("BiocManager")
     BiocManager::install()')
-  Hint: Type the expression into the R console.
+  Hint: Google Bioconductor.
 
 - Class: cmd_question
   Output: Install the packages tidyverse, ___.
@@ -123,6 +119,12 @@
 
 - Class: text
   Output: The filter threshold will depend on the differential expression algorithm that is being used. Refer to the specific differential expression vignette for details.
+
+- Class: script
+  Output: Write a function to filter out all features with less than 10 total counts in the object 'table'.
+  AnswerTests: low_filter()
+  Hint: Use function to filter sum of total counts across a row.
+  Script: low_filter.R
 
 # Normalization
 
