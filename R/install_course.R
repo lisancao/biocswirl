@@ -10,8 +10,8 @@
 install_course <- function(course){
 	if (course == "scrna_seq") {
 		url <- "https://github.com/lisancao/biocswirl/blob/master/biocswirl_package/courses/scrna_seq/lessons/low_level/low_level.yaml?raw=true"
-		download.file(url, destfile = "low_level.yaml")
-		download.file(url, destfile = "high_level.yaml")
+		utils::download.file(url, destfile = "low_level.yaml")
+		utils::download.file(url, destfile = "high_level.yaml")
 	}
 	else
 		print("Does not exist. Please try again!")
