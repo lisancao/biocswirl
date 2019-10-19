@@ -17,14 +17,14 @@ Please refer [here](biocswirl_package/courses/scrna_seq/docs/lessonplan_template
 Please refer to the [installation instructions](biocswirl_dev/devenv_install) for `BiocSwirl` setup details.
 
 ### Examples of use (GSE71585 dataset):
-- [Low Level Analyses](biocswirl_package/courses/scrna_seq/lessons/low_level/low_level.yaml) 
+- [Low Level Analyses](biocswirl_package/courses/scrna_seq/lessons/low_level/low_level.yaml)   
 a. Importing, raw data preprocessing   
 b. Alignment  
 c. Quality Control   
 d. Normalization (with and without spike-ins)  
 e. Dimensionality Reduction  
 f. Correcting for batch effects  
-- [High Level Analyses](biocswirl_package/courses/scrna_seq/lessons/high_level/high_level.yaml)
+- [High Level Analyses](biocswirl_package/courses/scrna_seq/lessons/high_level/high_level.yaml)  
 a. Clustering methods, exploratory analyses    
 b. Cell cycle phase classification from gene expression data  
 c. HVG and marker gene identification  
