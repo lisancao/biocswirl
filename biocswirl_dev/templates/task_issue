@@ -1,0 +1,25 @@
+# [<tag>] (Title) <subject> (Max 72 char)
+
+
+# Tasks 
+ [ ]
+
+# Resources
+
+# Tag can be 
+    biocswirl(related to course material)
+    biocterm (interface changes)
+    dev      (developers only)
+    file     (changes to file and folder structuring) 
+    rpkg     (r package/usethis and CRAN documentation changes)
+    feat     (new feature)
+    fix      (bug fix)
+    refactor (refactoring code)
+    style    (formatting, missing semi colons, etc; no code change)
+    doc      (changes to documentation)
+    test     (adding or refactoring tests; no production code change)
+    version  (version bump/new release; no production code change)
+    dbg      (Changes in debugging code/frameworks; no production code change)
+    license  (Edits regarding licensing; no production code change)
+    hack     (Temporary fix to make things move forward; please avoid it)
+    WIP      (Work In Progress; for intermediate commits to keep patches reasonably sized)
