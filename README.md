@@ -31,3 +31,15 @@ c. HVG and marker gene identification
 
 ### Further reference:
 [Vignette](vignettes/package_intro.Rmd) - in progress
+
+### Team members:
+
+| Name | GitHub ID | Work done |
+| ---- | --------- | --------- |
+| Lisa N. Cao | lisancao | User Environment & Interface Development |
+| Jackie Lu | jql6 | User Environment & Interface Development |
+| Jeremy Fan | zhemingfan | User Environment & Interface Development |
+| Kate Tyshchenko | ktyshchenko | Documentation, Course Material |
+| Paaksum Wong | paaksum | Course Material |
+| Sourav Singh | souravsingh | Course Material |   
+| Mariam Arab | mariamarab | Course Material |    
