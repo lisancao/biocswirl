@@ -13,7 +13,7 @@ Bioinformatics has grown in adoption in many traditional non-computer science fi
 ### Package details:
 During a 3-day hackathon, we developed `swirlify()`-style console/terminal based courses for the purposes of teaching bioinformatics workflow steps and good coding practices. The philosophy is to keep the GUI use and application switching as minimal as possible but the content itself very rich and informative. Bioconductor, Radian, bioSyntax (shoutout to hackseq 2016!), are examples of some packages we use to teach workflow steps, file types, and concepts in R.
 
-**Please refer [here](biocswirl_package/courses/scrna_seq/docs/lessonplan_template) for the lesson plan. In this hackathon (hackseq19) we focus on scRNA-seq.**
+**Please refer [here](biocswirl_package/courses/scrna_seq/docs/lessonplan_template) for the lesson plan. In this hackathon (hackseq19) we focus on scRNA-seq.** For future projects, the plan is to add other courses (for example, whole-genome sequencing).
 
 ### Installation:
 Please refer to the [installation instructions](biocswirl_dev/devenv_install) for `BiocSwirl` setup details.
