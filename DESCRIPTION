@@ -1,6 +1,6 @@
 Package: BiocSwirl
 Type: Package
-Title: Interactive Bioinformatics Tutorial on scRNA-Seq
+Title: Interactive Bioinformatics Tutorials
 Version: 0.0.0.9000
 Authors@R: c(
     person(given = "Lisa",
