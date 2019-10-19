@@ -35,6 +35,7 @@
   AnswerChoices: FastQC;samtools;STAR;DESeq2
   CorrectAnswer: FastQC
   AnswerTests: omnitest(correctVal='FastQC')
+  Hint: Quality Control.
 
 - Class: text
   Output: Go to https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ and follow instructions to perform QC on .bam files.
@@ -74,11 +75,11 @@
   Hint: Use tidyverse.
 
 - Class: mult_question
-  Output: What are the dimensions of the metadata table?
-  AnswerChoices: 1680,16;16,1679;16,1680;1679,16; none of the above
-  CorrectAnswer: 1679,16
-  AnswerTests: omnitest(correctVal='1679,16')
-  Hint: Rows first, then columns.
+  Output: How many rows are in the metadata?
+  AnswerChoices: 1680;1679;none of the above
+  CorrectAnswer: 1679
+  AnswerTests: omnitest(correctVal='1679')
+  Hint: Mind the header.
 
 - Class: text
   Output: Confirm whether your data was imported correctly using the head() function.
@@ -93,6 +94,7 @@
   AnswerChoices: SAM, BAM, VCF, GTF, PDF
   CorrectAnswer: GTF
   AnswerTests: omnitest(correctVal='GTF')
+  Hint: Starts with the letter after F.
 
 - Class: text
   Output: General Transfer Format (GTF) files generally contain the chromosome number, the feature type name, and the nucleotide start/end position of the feature. Find and download your specific species from the Ensembl FTP Downloads https://uswest.ensembl.org/info/data/ftp/index.html.
@@ -116,6 +118,7 @@
   AnswerChoices: 1;5;10;20;it depends
   CorrectAnswer: it depends
   AnswerTests: omnitest(correctVal='it depends')
+  Hint: Nothing is certain...
 
 - Class: text
   Output: The filter threshold will depend on the differential expression algorithm that is being used. Refer to the specific differential expression vignette for details.
