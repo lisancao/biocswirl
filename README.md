@@ -14,9 +14,11 @@ Bioinformatics has grown in adoption in many traditional non-computer science fi
 During a 3-day hackathon, we developed `swirlify()`-style console/terminal based courses for the purposes of teaching bioinformatics workflow steps and good coding practices. The philosophy is to keep the GUI use and application switching as minimal as possible but the content itself very rich and informative. 
 Bioconductor, Radian, bioSyntax (shoutout to hackseq 2016!), are examples of some packages we use to teach workflow steps, file types, and concepts in R.
 
-We also develop **biovim**: a powerful bioinformatics editor, and **biocterm**: a terminal environment for our course. 
+We also develop **biovim**: a powerful bioinformatics editor, and **biocterm**: a terminal environment for our course. BiocTerm is a standalone terminal application that acts as the ideal interface for those conducting bioinformatics as it integrates our custom editor, biovim (a vim installation bundled with bio plugins), radian (an r console), and tmux (our customized terminal wrapper) in a contained instance. Our interface supports R, Bash, and vim.     
 
-**Please refer [here](biocswirl_package/courses/scrna_seq/docs/lessonplan_template) for the lesson plan. In this hackathon (hackseq19) we focus on scRNA-seq.** For future projects, the plan is to add other courses (for example, whole-genome sequencing) and make lessons for other languages (for instance, Python).
+BiocSwirl is our R package and course installation client, used to deliver our interactive courses and can be run within console. **Please refer [here](biocswirl_package/courses/scrna_seq/docs/lessonplan_template) for the lesson plan. In this hackathon (hackseq19) we focus on scRNA-seq.** For future projects, the plan is to add other courses (for example, whole-genome sequencing) and make lessons for other languages (for instance, Python).
+
+The interface (BiocTerm) and R package (BiocSwirl) can be used independently of each other but are best used together for people who are interested in making the most of their learning experience.
 
 ### Installation:
 Please refer to the [installation instructions](biocswirl_dev/devenv_install) for `BiocSwirl` setup details.
@@ -51,3 +53,9 @@ c. HVG and marker gene identification
 | Sourav Singh | souravsingh | Course Material |   
 
 [Details about hackseq19 project](biocswirl_dev/hackseq_plan)
+
+
+### Contributing
+
+We are always looking for pull requests and active contributers, if you are interested in designing a course for us or have a feature in mind please submit an issue before doing a pull request. We are currently looking for help developing on Windows systems, bioinformatics workflows and concepts, and support for even more languages in BiocTerm. 
+
