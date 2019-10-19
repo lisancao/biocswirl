@@ -42,7 +42,8 @@ Imports:
     BiocManager,
     devtools,
     usethis,
-    roxygen2
+    roxygen2,
+    httr
 Suggests:
     testthat,
     knitr,
