@@ -28,21 +28,20 @@ tmux split-window -h 'radian'
 tmux new-window 'biocswirl'
 tmux -2 attach-session -d
 
+
+# Below commands are not working
+
 # Trying to make bash commands work in the tmux panes
 session=0
 window=${session}:0
-pane=${window}.2
-tmux send-keys -t "$pane" C-z 'tmux set pane-border-status' Enter
-echo 1
+pane=${window}.0
+tmux send-keys -t "$pane" C-z 'set pane-border-status' Enter
 tmux select-pane -t "$pane"
-echo 2
 tmux select-window -t "$window"
-echo 3
 tmux attach-session -t "$session"
-echo 4
 
 # Reveals pane titles
-tmux set pane-border-status
+#tmux set pane-border-status
 echo test
 # Renames currently selected pane title to 'editor'
-printf '\033]2;%s\033\\' 'editor'
+#printf '\033]2;%s\033\\' 'editor'
