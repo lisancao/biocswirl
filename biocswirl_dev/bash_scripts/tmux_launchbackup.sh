@@ -18,12 +18,9 @@
 ####################################################
 
 # Create 3 panes
-tmux new-session -d
-tmux split-window -v
-
-tmux resize-pane -D 10
-tmux select-pane -U
-tmux split-window -h 'radian'
+tmux new-session -d 'radian'
+tmux split-window -h 'nvim'
+tmux split-window -v 'nvim'
 
 tmux new-window 'biocswirl'
 tmux -2 attach-session -d
