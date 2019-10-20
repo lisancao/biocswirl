@@ -23,6 +23,14 @@ The interface (BiocTerm) and R package (BiocSwirl) can be used independently of 
 ### Installation:
 Please refer to the [installation instructions](biocswirl_dev/devenv_install) for `BiocSwirl` setup details.
 
+Biocterm: 
+
+Biovim: 
+
+BiocSwirl: 
+
+
+
 ### Examples of use (GSE71585 dataset):
 - [Low Level Analyses](biocswirl_package/courses/scrna_seq/lessons/low_level/low_level.yaml)   
 a. Importing, raw data preprocessing   
