@@ -19,8 +19,8 @@
 
 # Create 3 panes
 tmux new-session -d 'radian'
-tmux split-window -h 'nvim'
-tmux split-window -v 'nvim'
+tmux split-window -h 'vim'
+tmux split-window -v 'vim'
 
 tmux new-window 'biocswirl'
 tmux -2 attach-session -d
@@ -29,13 +29,13 @@ tmux -2 attach-session -d
 # Below commands are not working
 
 # Trying to make bash commands work in the tmux panes
-session=0
-window=${session}:0
-pane=${window}.0
-tmux send-keys -t "$pane" C-z 'set pane-border-status' Enter
-tmux select-pane -t "$pane"
-tmux select-window -t "$window"
-tmux attach-session -t "$session"
+#session=0
+#window=${session}:0
+#pane=${window}.0
+#tmux send-keys -t "$pane" C-z 'set pane-border-status' Enter
+#tmux select-pane -t "$pane"
+#tmux select-window -t "$window"
+#tmux attach-session -t "$session"
 
 # Reveals pane titles
 #tmux set pane-border-status
