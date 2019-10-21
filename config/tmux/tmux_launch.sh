@@ -18,15 +18,13 @@
 ####################################################
 
 # Open vim
-tmux new-session -d 'nvim'
+tmux new-session -d 'vim'
 
 # Create a split window for radian
 tmux split-window -h 'radian'
-Resize-pane -D
 
 # Not very sure what this does
 tmux -2 attach-session -d
 
 # Enable mouse mode (tmux 2.1 and above)
 set -g mouse on
-
