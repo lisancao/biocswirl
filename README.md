@@ -1,3 +1,5 @@
+## THIS REPOSITORY IS NOW DEPRICATED. PLEASE SEE https://github.com/biocswirl-dev-team WHERE THE CONTINUED DEVELOPMENT OF THIS PROJECT, INCLCUDING CLEANED REPOSITORIES AND ISSUES HAVE MOVED. 
+
 # BiocSwirl: Terminal based Bioconductor Courses 
 
 ##### Keywords: 
